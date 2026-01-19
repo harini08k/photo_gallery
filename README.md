@@ -1,5 +1,38 @@
-# Vue 3 + TypeScript + Vite
+# 📸 Photo Gallery — Vue + TypeScript
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A clean, responsive **photo gallery web application** built using **Vue 3 + TypeScript**, featuring card-based image layouts, smooth hover interactions, and an image preview popup.  
+The project demonstrates modern frontend development practices with component-based architecture and flexible image sourcing.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## ✨ Features
+
+- 🖼️ **Card-based Image Display**
+  - Clean grid layout with modern UI design
+  - Consistent spacing, shadows, and rounded cards
+
+- 🎯 **Hover Highlighting**
+  - Subtle hover effects to enhance user interaction
+  - Improves visual feedback and UX
+
+- 🔍 **Image Preview Popup**
+  - Click on an image card to view a larger preview
+  - Focused viewing experience without leaving the page
+
+- 🔗 **Flexible Image Sources**
+  - Images can be loaded from:
+    - Local assets
+    - Shared/public folders
+    - External URLs
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Vue 3
+- **Language:** TypeScript
+- **Styling:** CSS
+---
+
+## 📂 Project Structure
+
+
