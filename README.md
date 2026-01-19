@@ -7,22 +7,22 @@ A clean, responsive photo gallery web application built using **Vue 3 + TypeScri
 ## Features
 
 -  **Card-based Image Display**
-  - Clean grid layout with modern UI design
-  - Consistent spacing, shadows, and rounded cards
+    - Clean grid layout with modern UI design
+    - Consistent spacing, shadows, and rounded cards
 
 -  **Hover Highlighting**
-  - Subtle hover effects to enhance user interaction
-  - Improves visual feedback and UX
+    - Subtle hover effects to enhance user interaction
+    - Improves visual feedback and UX
 
 -  **Image Preview Popup**
-  - Click on an image card to view a larger preview
-  - Focused viewing experience without leaving the page
+    - Click on an image card to view a larger preview
+    - Focused viewing experience without leaving the page
 
 -  **Flexible Image Sources**
-  - Images can be loaded from:
-    - Local assets
-    - Shared/public folders
-    - External URLs
+    - Images can be loaded from:
+       - Local assets
+       - Shared/public folders
+       - External URLs
 ---
 
 ## 🛠️ Tech Stack
