@@ -32,28 +32,6 @@ A clean, responsive photo gallery web application built using **Vue 3 + TypeScri
 - **Styling:** CSS
 ---
 
-## Project Structure
-
-photogallery/
-├── public/
-│ ├── shared/
-│ └── vite.svg
-├── src/
-│ ├── components/
-│ │ └── PhotoCard.vue
-│ ├── assets/
-│ ├── App.vue
-│ ├── main.ts
-│ └── style.css
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-
-
-
----
-
 ## Setup
 
 ### 1️⃣ Clone the repository
@@ -89,8 +67,6 @@ http://localhost:5173
  - Clean separation of concerns between UI and data
 
  - Reusable components and scalable structure
-
- - Real-world frontend workflow using Git and GitHub
 
 ---
 
