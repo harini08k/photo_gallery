@@ -4,19 +4,16 @@ import PhotoCard from '@/components/PhotoCard.vue'
 import PhotoModal from '@/components/PhotoModal.vue'
 import type { Photo } from '@/types/Photo'
 import { mockPhotos } from '@/data/mockPhotos'
-
 const photos = ref<Photo[]>([])
 const selectedPhoto = ref<Photo | null>(null)
 
 onMounted(() => {
-  // Simulating API call
   photos.value = mockPhotos
 })
 </script>
 
 <template>
   <h1>Photo Gallery</h1>
-
   <div class="grid">
     <PhotoCard
       v-for="photo in photos"
@@ -25,7 +22,6 @@ onMounted(() => {
       @open="selectedPhoto = $event"
     />
   </div>
-
   <PhotoModal
     :photo="selectedPhoto"
     @close="selectedPhoto = null"
